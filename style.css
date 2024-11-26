@@ -144,3 +144,56 @@ padding-left: -10px;
     border-radius: 50%;
     cursor:-webkit-grab;
 }
+/*Mobail viwe*/
+@media (max-width:950px){
+    abbr{
+        margin-left: -70px;
+        font-size: 35px;
+    }
+    .logo{
+        top: 25px;
+        
+    }
+    .logo a{
+        font-size: 20px;
+    }
+    .searchbox{
+        right: 15px;
+        width: 125px;
+        top: 30px;
+    }
+    .section1 img{
+        height: 130px;
+        margin-top: -120px;
+    }
+    .section1button h1,h2{
+        line-height: 10px;
+        letter-spacing: 0;
+    }
+    .section1button h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .section1button h2{
+        font-size: 25px;
+    }
+    .btn{
+        width: 68px;
+    height: 29px;
+    margin-top: 20px;
+    font-size: 10px;
+    }
+    .section1button{
+        top: 45%;
+    left: 95%;
+    }
+    .iconArea{
+        width: 28px;
+    height: 166px;
+    left: 5px;
+    }
+    .iconArea a{
+        padding: 11px 14px;
+    font-size: 18px;
+    }
+}
